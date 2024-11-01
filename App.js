@@ -6,7 +6,7 @@ import adminRoute from "./routes/AdminRoute.js";
 import userRoute from "./routes/UserRoute.js";
 import categoryRoute from './routes/CategoryRoute.js';
 import subCategoryRoute from './routes/SubCategoryRoute.js';
-import productRoute from './routes/ProdectRoute.js'; // Correct spelling of 'ProductRoute'
+import productRoute from './routes/productRoute.js'; // Correct spelling of 'ProductRoute'
 import fileUpload from 'express-fileupload';
 import connectDB from './database/dbconfig.js';
 import { Server } from 'socket.io'; // Import Socket.IO
